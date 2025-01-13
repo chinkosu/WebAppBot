@@ -4,63 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telegram Mini App</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
-        h1 {
-            color: #0088cc;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            color: white;
-            background-color: #0088cc;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #005f88;
-        }
-    </style>
 </head>
 <body>
-    <h1>Добро пожаловать в Telegram Mini App</h1>
-    <p id="username">Загрузка данных...</p>
-    <button onclick="closeApp()">Закрыть приложение</button>
-
-    <script>
-        // Инициализация Telegram Web App
-        const tg = window.Telegram.WebApp;
-
-        // Устанавливаем цвет темы и размеры
-        tg.expand(); // Разворачивает приложение на весь экран
-        tg.themeParams.bg_color = "#f5f5f5"; // Задаём фон приложения
-        tg.themeParams.secondary_bg_color = "#ffffff";
-
-        // Получение данных о пользователе
-        const usernameEl = document.getElementById('username');
-        if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
-            const user = tg.initDataUnsafe.user;
-            usernameEl.textContent = `Привет, ${user.first_name} ${user.last_name || ''}!`;
-        } else {
-            usernameEl.textContent = 'Привет, Гость!';
-        }
-
-        // Закрытие приложения
-        function closeApp() {
-            tg.close();
-        }
-    </script>
+    <div class="app">
+        <h1 id="title">Добро пожаловать!</h1>
+        <p id="description">Это приложение Telegram Mini App.</p>
+        <button id="action-btn">Кнопка</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
