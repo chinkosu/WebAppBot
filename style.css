@@ -23,16 +23,24 @@ html {margin:0; padding: 0;}
  background-color: rgba(255, 255, 255, 0.08);
   border-radius: 13px;
 
+
  
 }
 
 .app-content {
+  
   display: flex;
   flex-direction: column;
   gap: 24px;
   width: 100%;
   margin-top: 32px;
   max-width: 600px;
+
+
+     user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .cell{
