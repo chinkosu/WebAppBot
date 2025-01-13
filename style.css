@@ -1,9 +1,42 @@
 body {background-color: #212121; font-family: system-ui; margin: 0;}
 html {margin:0; padding: 0;}
+
+
+
+.app-content {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  margin-top: 32px;
+  max-width: 600px;
+
+     user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
 .table {
   height: auto;
-
 }
+
+
+
+
+.tableview {
+  display: flex;
+  flex-direction: column;
+ background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 13px;
+ 
+}
+
+
+
+
 
 .section-header{
   font-size: 13px;
@@ -17,31 +50,9 @@ html {margin:0; padding: 0;}
   flex-direction: row;
   align-items: center;
 }
-.tableview {
-  display: flex;
-  flex-direction: column;
- background-color: rgba(255, 255, 255, 0.08);
-  border-radius: 13px;
 
 
- 
-}
 
-.app-content {
-  
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 100%;
-  margin-top: 32px;
-  max-width: 600px;
-
-
-     user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
 
 .cell{
   display: flex;
