@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="MobileOptimized" content="176" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="robots" content="noindex,nofollow" />
+    <script src="https://telegram.org/js/telegram-web-app.js?2"></script>
+    <script>
+        function setThemeClass() {
+            document.documentElement.className = Telegram.WebApp.colorScheme;
+        }
+
+        Telegram.WebApp.onEvent('themeChanged', setThemeClass);
+        setThemeClass();
+
+    </script>
+    <title></title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+</head>
+
+<div class="app-content">
+  <div class="table">
+  <div class="section-header">Section HEader</div>
+  <div class="tableview">
+  <div class="cell">
+    <div class="cell-left">
+      <div class="cell-note">1 месяц</div>
+      <div class="cell-title">199 ₽ в месяц</div>
+    </div>    
+    <div class="cell-right">
+  <div class="icon-16"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 3L11 8L6 13" stroke="#707579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+      
+    </div>
+    
+    </div>
+  </div>
+  <div class="cell-divider"></div>
+  <div class="cell">
+    <div class="cell-left">
+      <div class="cell-note">1 месяц</div>
+      <div class="cell-title">199 ₽ в месяц</div>
+    </div>    
+    <div class="cell-right">
+  <div class="icon-16"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 3L11 8L6 13" stroke="#707579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+      
+    </div>
+    
+    </div>
+  </div>
+  <div class="cell-divider"></div>  
+  <div class="cell">
+    <div class="cell-left">
+      <div class="cell-note">1 месяц</div>
+      <div class="cell-title">199 ₽ в месяц</div>
+    </div>    
+    <div class="cell-right">
+  <div class="icon-16"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 3L11 8L6 13" stroke="#707579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+      
+    </div>
+    
+    </div>
+  </div>
+  </div>
+</div>
+  <div class="table">
+  <div class="section-header">Section HEader</div>
+  <div class="tableview">
+
+    
+
+  
+    <div class="cell">
+      <div class="icon-28"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.14559 20.6404C7.4243 20.0448 7.5969 19.3532 7.5969 18.5055C5.80489 17.04 4.68707 14.9661 4.68707 12.6668C4.68707 8.22626 8.85594 4.62652 13.9985 4.62652C19.1411 4.62652 23.31 8.22626 23.31 12.6668C23.31 17.1072 19.1411 20.707 13.9985 20.707C13.1947 20.707 12.4147 20.619 11.6707 20.4537C11.1602 21.0129 10.1629 21.7412 8.48004 22.305C7.60458 22.5982 6.54357 22.847 5.26904 23.0042C5.98477 22.2979 6.7005 21.5916 7.14559 20.6404ZM12.2718 22.5692C12.8358 22.6459 13.4125 22.6856 13.9985 22.6856C19.9512 22.6856 25.2885 18.4626 25.2885 12.6668C25.2885 6.87089 19.9512 2.64795 13.9985 2.64795C8.04578 2.64795 2.7085 6.87089 2.7085 12.6668C2.7085 15.2532 3.80608 17.5651 5.53109 19.2996C5.33067 20.1238 4.7838 20.7033 3.87928 21.5959C3.27635 22.1909 3.11906 23.1037 3.48808 23.8661C3.8571 24.6286 4.67056 25.0716 5.51126 24.9679C8.74782 24.5686 10.9255 23.6016 12.2718 22.5692Z" fill="#007AFF"/>
+        </svg>
+      </div>
+    
+    <div class="cell-left">
+      
+      <div class="cell-title">Поддержка</div>
+    </div>    
+    <div class="cell-right">
+  <div class="icon-16"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 3L11 8L6 13" stroke="#707579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+      
+    </div>
+    
+    </div>
+  </div>
+      <div class="cell-divider"></div>
+        <div class="cell">
+      <div class="icon-28"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.03053 7.90395C4.03053 6.31012 5.32259 5.01807 6.91641 5.01807H23.6572C24.1542 5.01807 24.5572 5.42101 24.5572 5.91807C24.5572 6.41512 24.1542 6.81807 23.6572 6.81807H6.91641C6.3167 6.81807 5.83053 7.30423 5.83053 7.90395V20.8031H15.4643C15.9613 20.8031 16.3643 21.2061 16.3643 21.7031C16.3643 22.2002 15.9613 22.6031 15.4643 22.6031H2.00449C1.50744 22.6031 1.10449 22.2002 1.10449 21.7031C1.10449 21.2061 1.50744 20.8031 2.00449 20.8031H4.03053V7.90395ZM20.9614 11.675C20.3617 11.675 19.8755 12.1612 19.8755 12.7609V19.7172C19.8755 20.317 20.3617 20.8031 20.9614 20.8031H24.0121C24.6118 20.8031 25.098 20.317 25.098 19.7172V12.7609C25.098 12.1612 24.6119 11.675 24.0121 11.675H20.9614ZM18.0755 12.7609C18.0755 11.1671 19.3676 9.87501 20.9614 9.87501H24.0121C25.606 9.87501 26.898 11.1671 26.898 12.7609V19.7172C26.898 21.3111 25.606 22.6031 24.0121 22.6031H20.9614C19.3676 22.6031 18.0755 21.3111 18.0755 19.7172V12.7609Z" fill="#007AFF"/>
+</svg>
+
+      </div>
+    
+    <div class="cell-left">
+      
+      <div class="cell-title">Инструкция</div>
+    </div>    
+    <div class="cell-right">
+  <div class="icon-16"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 3L11 8L6 13" stroke="#707579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+      
+    </div>
+    
+    </div>
+  </div>
+    
+    
+  </div>
+</div>
+</div>
