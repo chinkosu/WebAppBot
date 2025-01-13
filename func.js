@@ -1,4 +1,4 @@
-<script type="application/javascript">
+
 
     /*
      * This is a demo code for Telegram WebApp for Bots
@@ -1239,4 +1239,4 @@
     try {
         DemoApp.activityInit();
     } catch(e) {}
-</script>
+
