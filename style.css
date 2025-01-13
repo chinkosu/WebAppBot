@@ -94,6 +94,6 @@ body {background-color: #212121; font-family: system-ui; }
   border-bottom: .5px solid white;
   position: relative;
   width: 100%;
-  opacity: 0.08;
+  opacity: 0.05;
   bottom: 0px;
 }
