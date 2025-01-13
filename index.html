@@ -30,6 +30,7 @@
   <script>
         window.onload = function () {
             const webApp = Telegram.WebApp;
+            Telegram.WebApp.requestFullscreen();
             Telegram.WebApp.setHeaderColor("bg_color");
             webApp.expand(); // Расширяет приложение на весь экран
             webApp.MainButton.setText("Начать");
