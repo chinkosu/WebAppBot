@@ -25,11 +25,20 @@
 
 </head>
 
- <script>
-  coolButton = window.Telegram.WebApp.MainButton;
-  coolButton.show();
-  coolButton.text = 'Добавить устройство';
-</script>
+
+
+  <script>
+        window.onload = function () {
+            const webApp = Telegram.WebApp;
+            webApp.expand(); // Расширяет приложение на весь экран
+            webApp.MainButton.setText("Начать");
+            webApp.MainButton.show(); // Пример работы с главной кнопкой
+        };
+    </script>
+
+
+    
+
     
 <div class="app-content">
   <div class="table">
