@@ -299,7 +299,7 @@
             right: 0;
             top: 0;
             bottom: 0;
-            border: 2px dashed gray;
+            border: 0px dashed gray;
         }
 
         .viewport-stable_border:after {
