@@ -3,6 +3,7 @@ body {background-color: #212121; font-family: system-ui; }
 .table {
   height: auto;
   margin: 0 16px 0 16px;
+  width: 100%;
 }
 .app-content {width: 100%;}
 .section-header{
