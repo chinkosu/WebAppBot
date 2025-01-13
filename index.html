@@ -32,6 +32,7 @@
             const webApp = Telegram.WebApp;
             Telegram.WebApp.disableSwipeBack();
             Telegram.WebApp.setHeaderColor("secondary_bg_color");
+            Telegram.WebApp.HapticFeedback.notificationOccurred('success');
             webApp.MainButton.setText("Начать");
             webApp.MainButton.show(); // Пример работы с главной кнопкой
         };
